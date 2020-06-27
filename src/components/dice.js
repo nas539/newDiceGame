@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import images from '../../static/assets/images/dice1.png';
-import images1 from '../../static/assets/images/dice2.png';
-import images2 from '../../static/assets/images/dice3.png';
-import images3 from '../../static/assets/images/dice4.png';
-import images4 from '../../static/assets/images/dice5.png';
-import images5 from '../../static/assets/images/dice6.png';
-import images6 from '../../static/assets/images/blank.png';
+import Image1 from '../../static/assets/images/dice1.png';
+import Image2 from '../../static/assets/images/dice2.png';
+import Image3 from '../../static/assets/images/dice3.png';
+import Image4 from '../../static/assets/images/dice4.png';
+import Image5 from '../../static/assets/images/dice5.png';
+import Image6 from '../../static/assets/images/dice6.png';
+import ImageBlank from '../../static/assets/images/blank.png';
 
 
 export default class Dice extends Component {
@@ -13,18 +13,18 @@ export default class Dice extends Component {
         super(props);
 
         this.state = {
-            dice1: "../../static/assets/images/dice1.png",
-            dice2: "../../static/assets/images/dice2.png",
-            dice3: "../../static/assets/images/dice3.png",
-            dice4: "../../static/assets/images/dice4.png",
-            dice5: "../../static/assets/images/dice5.png",
-            dice6: "../../static/assets/images/dice6.png",
-            winningDice1: "../../static/assets/images/blank.png",
-            winningDice2: "../../static/assets/images/blank.png",
-            winningDice3: "../../static/assets/images/blank.png",
-            winningDice4: "../../static/assets/images/blank.png",
-            winningDice5: "../../static/assets/images/blank.png",
-            winningDice6: "../../static/assets/images/blank.png",
+            dice1: Image1,
+            dice2: Image2,
+            dice3: Image3,
+            dice4: Image4,
+            dice5: Image5,
+            dice6: Image6,
+            winningDice1: ImageBlank,
+            winningDice2: ImageBlank,
+            winningDice3: ImageBlank,
+            winningDice4: ImageBlank,
+            winningDice5: ImageBlank,
+            winningDice6: ImageBlank,
         }
     }
     render() {
