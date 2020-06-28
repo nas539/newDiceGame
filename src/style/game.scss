@@ -5,6 +5,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+
+    .title {
+        text-align: center;
+        font-size: 4em;
+        color: white;
+        text-shadow: 4px 4px 5px rgba(150, 150, 150, 1);
+    }
 
     .rolling-number-wrapper {
         display: flex;
@@ -28,6 +36,20 @@
             height: 100px;
             width: 100px;
             background-color: transparent;
+            -webkit-box-shadow: 38px 22px 24px 9px rgba(0,0,0,0.75);
+            -moz-box-shadow: 38px 22px 24px 9px rgba(0,0,0,0.75);
+            box-shadow: 38px 22px 24px 9px rgba(0,0,0,0.75);
+        }
+    }
+
+    button {
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+        border-radius: 2px;
+        text-shadow: 4px 4px 5px rgba(150, 150, 150, 1);
+
+        &:hover {
             -webkit-box-shadow: 38px 22px 24px 9px rgba(0,0,0,0.75);
             -moz-box-shadow: 38px 22px 24px 9px rgba(0,0,0,0.75);
             box-shadow: 38px 22px 24px 9px rgba(0,0,0,0.75);
